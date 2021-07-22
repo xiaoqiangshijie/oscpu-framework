@@ -24,7 +24,8 @@ module id_stage(
   output wire [`REG_BUS]op1,
   output wire [`REG_BUS]op2
 );
-
+//R-type
+wire [6:0]opcode_r;
 
 // I-type
 wire [6  : 0]opcode;
