@@ -1,11 +1,283 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T10:33:26.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZaaLQi9oj6xmdGjISLQ-" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T11:37:08.319Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bJZFnbENqNjEbXILjGcm" version="21.3.8" type="github">
   <diagram name="第 1 页" id="pmZ2BUNJM0yEarqeaY6m">
-    <mxGraphModel dx="1838" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2231" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1NSAZqnCaweZWtJaYeCe-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="320" y="40" width="80" height="80" as="geometry" />
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="1NSAZqnCaweZWtJaYeCe-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="189.80952380952385" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="189.80952380952385" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-16" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1NSAZqnCaweZWtJaYeCe-15">
+          <mxGeometry x="-0.2885" relative="1" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-11" target="1NSAZqnCaweZWtJaYeCe-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-18" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1NSAZqnCaweZWtJaYeCe-17">
+          <mxGeometry x="0.0789" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-11" value="master是否发送&lt;br&gt;写地址请求" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-19" value="等待master发送写地址请求" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="410" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-20" value="将写地址写进buffer中" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="1NSAZqnCaweZWtJaYeCe-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="679.8095238095239" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="679.8095238095239" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-24" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1NSAZqnCaweZWtJaYeCe-23">
+          <mxGeometry x="-0.2885" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-27" target="1NSAZqnCaweZWtJaYeCe-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-26" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1NSAZqnCaweZWtJaYeCe-25">
+          <mxGeometry x="0.0789" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-27" value="master是否发送&lt;br&gt;写数据请求" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="180" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-28" value="等待master发送写数据请求" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="870" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-33" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1NSAZqnCaweZWtJaYeCe-31">
+          <mxGeometry x="0.3407" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-30" target="1NSAZqnCaweZWtJaYeCe-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770.0000000000002" y="619.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-37" value="同时到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1NSAZqnCaweZWtJaYeCe-35">
+          <mxGeometry x="0.6036" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-30" value="是否写地址先到" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="450" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="679.6666666666667" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-34" value="将buffer中地址的值作为sram的写地址" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-36" value="直接总线上的写地址作为sram的写地址" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="810" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.449;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1NSAZqnCaweZWtJaYeCe-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="320" as="sourcePoint" />
+            <mxPoint x="560" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="320" />
+              <mxPoint x="1036" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-39" value="向master发送写响应请求" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-45" value="用总线上的数据向buffer中的写地址写入sram" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-36" target="1NSAZqnCaweZWtJaYeCe-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="740" as="targetPoint" />
+            <mxPoint x="850" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-46" value="用总线上的数据向总线上的写地址写入sram" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="810" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-48" value="等待master写响应反馈，有效时向master发送写入的状态" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-49" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;分为两种情况：先地址再数据，或者地址数据同时到，所以写数据不需要保存到buffer中&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="890" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="1NSAZqnCaweZWtJaYeCe-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1289.8095238095239" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-51" value="master发送读地址请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1NSAZqnCaweZWtJaYeCe-50">
+          <mxGeometry x="-0.3158" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1289.8095238095239" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-53" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1NSAZqnCaweZWtJaYeCe-52">
+          <mxGeometry x="-0.2885" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-56" target="1NSAZqnCaweZWtJaYeCe-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1440" y="260" />
+              <mxPoint x="1440" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-55" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1NSAZqnCaweZWtJaYeCe-54">
+          <mxGeometry x="0.0789" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-56" value="是否读地址响应" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-57" value="等待读地址响应" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-59" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1265" y="320" as="sourcePoint" />
+            <mxPoint x="1315" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="481" as="targetPoint" />
+            <mxPoint x="1290" y="431" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-64" value="&lt;b&gt;握手成功&lt;br&gt;&lt;/b&gt;向master发送接收数据请求" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-73" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1NSAZqnCaweZWtJaYeCe-71">
+          <mxGeometry x="0.1161" y="-2" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="540.4000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-74" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1NSAZqnCaweZWtJaYeCe-72">
+          <mxGeometry x="-0.3458" y="-2" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-70" value="master是否反馈读数据接收响应" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-78" value="向master反馈读的reg读出的数据" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="629.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1490" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-82" value="接收数据响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1NSAZqnCaweZWtJaYeCe-81">
+          <mxGeometry x="-0.1065" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-80" value="等待master反馈读数据接收响应" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="1NSAZqnCaweZWtJaYeCe-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-84" value="反馈master写地址响应" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="150" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-86" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="310" as="sourcePoint" />
+            <mxPoint x="215" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1NSAZqnCaweZWtJaYeCe-87" target="1NSAZqnCaweZWtJaYeCe-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-87" value="反馈master写地址响应" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-88" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="300" as="sourcePoint" />
+            <mxPoint x="705" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-91" value="写数据" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="650" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-94" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;写地址&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NSAZqnCaweZWtJaYeCe-96" value="读通道" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="90" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
